@@ -25,12 +25,7 @@
 #define BIT(x)	(1 << (x))
 
 #define LED_UTAMA		BIT(27)		// 1 << 27
-#define LED_UTAMA	BIT(27)
-		
-		#define setup_led_utama()	do {	\
-										FIO0DIR = LED_UTAMA;	\
-										FIO0CLR = LED_UTAMA;	\
-									} while(0)
+
 void init(void)	;
 void sysInit(void);
 void gpio_init(void);
