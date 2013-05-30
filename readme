@@ -1,0 +1,3 @@
+perintah compile : make
+perintah membersihkan : make clean
+perintah flashing : make tulis
